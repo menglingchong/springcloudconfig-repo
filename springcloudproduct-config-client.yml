@@ -16,7 +16,7 @@ spring:
     name: springcloud-product
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource            # \u5F53\u524D\u6570\u636E\u6E90\u64CD\u4F5C\u7C7B\u578B
-    driver-class-name: com.mysql.jdbc.Driver
+    driver-class-name: org.gjt.mm.mysql.Driver
     url: jdbc:mysql://127.0.0.1:3306/springcloud_sell?allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8
     username: root
     password: 123456
@@ -52,7 +52,7 @@ spring:
     name: springcloud-product
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource            # \u5F53\u524D\u6570\u636E\u6E90\u64CD\u4F5C\u7C7B\u578B
-    driver-class-name: com.mysql.jdbc.Driver
+    driver-class-name: org.gjt.mm.mysql.Driver
     url: jdbc:mysql://127.0.0.1:3306/springcloud_sell?allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8
     username: root
     password: 123456
