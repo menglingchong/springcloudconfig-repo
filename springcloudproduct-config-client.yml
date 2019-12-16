@@ -33,7 +33,7 @@ spring:
     show-sql: true
         
 info: #微服务详情信息
-  app.name: imooc-microservicecloud
+  app.name: imooc-microservicecloud-product
   company.name: www.imooc.com
   build.artifactId: $project.artifactId$
   build.version: $project.version$
@@ -69,7 +69,7 @@ spring:
     show-sql: true
         
 info: #微服务详情信息
-  app.name: imooc-microservicecloud
+  app.name: imooc-microservicecloud-product
   company.name: www.imooc.com
   build.artifactId: $project.artifactId$
   build.version: $project.version$
