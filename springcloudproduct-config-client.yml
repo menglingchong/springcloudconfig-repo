@@ -1,3 +1,7 @@
+spring:
+  profiles:
+    active:
+    - dev
 --- 
 server:
   port: 8002
@@ -7,7 +11,7 @@ eureka:
     service-url:
       defaultZone: http://localhost:8761/eureka/
   instance:
-    instance-id: microservicecloud-product8002   #\u5FAE\u670D\u52A1\u5B9E\u4F8B\u540D\u79F0
+    instance-id: springcloud-product8002   #\u5FAE\u670D\u52A1\u5B9E\u4F8B\u540D\u79F0
     prefer-ip-address: true     #\u8BBF\u95EE\u8DEF\u5F84\u53EF\u4EE5\u663E\u793AIP\u5730\u5740 
   
 spring:
@@ -16,8 +20,8 @@ spring:
     name: springcloud-product
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource            # \u5F53\u524D\u6570\u636E\u6E90\u64CD\u4F5C\u7C7B\u578B
-    driver-class-name: org.gjt.mm.mysql.Driver
-    url: jdbc:mysql://127.0.0.1:3306/springcloud_sell?allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/springcloud_sell?serverTimezone=UTC&allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8&useSSL=false
     username: root
     password: 123456
     dbcp2:
@@ -28,7 +32,7 @@ spring:
   jpa:
     show-sql: true
         
-info: #\u5FAE\u670D\u52A1\u5B9E\u4F8B\u4FE1\u606F
+info: #微服务详情信息
   app.name: imooc-microservicecloud
   company.name: www.imooc.com
   build.artifactId: $project.artifactId$
@@ -43,7 +47,7 @@ eureka:
     service-url:
       defaultZone: http://localhost:8761/eureka/
   instance:
-    instance-id: microservicecloud-product8012   #\u5FAE\u670D\u52A1\u5B9E\u4F8B\u540D\u79F0
+    instance-id: springcloud-product8012   #\u5FAE\u670D\u52A1\u5B9E\u4F8B\u540D\u79F0
     prefer-ip-address: true     #\u8BBF\u95EE\u8DEF\u5F84\u53EF\u4EE5\u663E\u793AIP\u5730\u5740 
   
 spring:
@@ -52,8 +56,8 @@ spring:
     name: springcloud-product
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource            # \u5F53\u524D\u6570\u636E\u6E90\u64CD\u4F5C\u7C7B\u578B
-    driver-class-name: org.gjt.mm.mysql.Driver
-    url: jdbc:mysql://127.0.0.1:3306/springcloud_sell?allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/springcloud_sell?serverTimezone=UTC&allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8&useSSL=false
     username: root
     password: 123456
     dbcp2:
@@ -64,7 +68,7 @@ spring:
   jpa:
     show-sql: true
         
-info: #\u5FAE\u670D\u52A1\u5B9E\u4F8B\u4FE1\u606F
+info: #微服务详情信息
   app.name: imooc-microservicecloud
   company.name: www.imooc.com
   build.artifactId: $project.artifactId$
