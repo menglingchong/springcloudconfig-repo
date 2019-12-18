@@ -18,7 +18,7 @@ eureka:
 spring:
   profiles: dev
   application:
-    name: springcloud-order1
+    name: springcloud-order2
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource            # \u5F53\u524D\u6570\u636E\u6E90\u64CD\u4F5C\u7C7B\u578B
     driver-class-name: com.mysql.jdbc.Driver
