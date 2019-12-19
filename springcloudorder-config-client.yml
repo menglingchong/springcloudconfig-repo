@@ -43,6 +43,9 @@ info: #微服务详情信息
   company.name: www.imooc.com
   build.artifactId: $project.artifactId$
   build.version: $project.version$
+girl:
+  name: lucy
+  age: 18
   
 ---
 
