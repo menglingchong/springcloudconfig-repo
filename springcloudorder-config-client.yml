@@ -45,7 +45,7 @@ info: #微服务详情信息
   build.version: $project.version$
 girl:
   name: lucy
-  age: 18
+  age: 19
   
 ---
 
