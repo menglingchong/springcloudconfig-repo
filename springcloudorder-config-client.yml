@@ -32,6 +32,9 @@ spring:
       max-wait-millis: 200                                  # \u7B49\u5F85\u8FDE\u63A5\u83B7\u53D6\u7684\u6700\u5927\u8D85\u65F6\u65F6\u95F4
   jpa:
     show-sql: true
+  redis:
+    host: 10.126.2.179
+    port: 6379
  # rabbitmq:
  #   host: 10.126.2.179
  #   port: 5672
@@ -77,6 +80,9 @@ spring:
       max-wait-millis: 200                                  # \u7B49\u5F85\u8FDE\u63A5\u83B7\u53D6\u7684\u6700\u5927\u8D85\u65F6\u65F6\u95F4
   jpa:
     show-sql: true
+  redis:
+    host: 10.126.2.179
+    port: 6379
  # rabbitmq:
  #   host: 10.126.2.179
  #   port: 5672
