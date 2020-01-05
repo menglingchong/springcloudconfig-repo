@@ -42,7 +42,7 @@ spring:
  #   password: guest
  #   virtual-host: /  
 info: #微服务详情信息
-  app.name: imooc-microservicecloud-order
+  app.name: imooc-microservicecloud-getway
   company.name: www.imooc.com
   build.artifactId: $project.artifactId$
   build.version: $project.version$
@@ -90,7 +90,7 @@ spring:
  #   password: guest
  #   virtual-host: /    
 info: #微服务详情信息
-  app.name: imooc-microservicecloud-order
+  app.name: imooc-microservicecloud-getway
   company.name: www.imooc.com
   build.artifactId: $project.artifactId$
   build.version: $project.version$
